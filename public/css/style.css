@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}

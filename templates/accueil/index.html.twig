@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil
+{% endblock %}
+
+{% block body %}
+	<main>
+		<div class="contact">
+			<form action="" method="post">
+				<div>
+					<div>
+						<label for="email">E-mail:
+						</label>
+						<input type="mail">
+					</div>
+					<div>
+						<label for="nom">Nom:
+						</label>
+						<input type="text">
+					</div>
+					<div>
+						<label for="">Votre question</label>
+						<input type="text" style="height: 100px; width: 500px">
+					</div>
+				</div>
+                <input type="submit">
+			</form>
+
+		</div>
+
+	</main>
+{% endblock %}
